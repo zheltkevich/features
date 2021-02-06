@@ -1,4 +1,15 @@
 .main {
     display: flex;
-    min-height: 100%;
+    align-items: stretch;
+    justify-content: stretch;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.general-section {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100px;
+    background-color: rgb(220, 220, 220);
 }
